@@ -6,7 +6,7 @@ import CourseCard from '../components/CourseCard';
 import PaymentModal from '../components/PaymentModal';
 
 const CourseListPage = () => {
-  const { courses, enrolledCourses, searchQuery, setSearchQuery, selectedCategory, setSelectedCategory } = useCourse();
+  const { courses, enrolledCourses, loading, searchQuery, setSearchQuery, selectedCategory, setSelectedCategory } = useCourse();
   const [selectedLevel, setSelectedLevel] = useState('All');
   const [sortBy, setSortBy] = useState('popular');
   const [selectedCourseForPayment, setSelectedCourseForPayment] = useState(null);
@@ -144,7 +144,20 @@ const CourseListPage = () => {
       </div>
 
       {/* Course Grid */}
-      {filtered.length > 0 ? (
+      {loading ? (
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 24 }}>
+          {[1, 2, 3].map(i => (
+            <div key={i} className="card" style={{ height: 380, opacity: 0.5 }}>
+              <div style={{ height: 170, background: 'var(--bg-tertiary)', borderRadius: 'var(--radius-md)' }} />
+              <div style={{ padding: 20 }}>
+                <div style={{ height: 12, background: 'var(--bg-tertiary)', borderRadius: 4, marginBottom: 10, width: '30%' }} />
+                <div style={{ height: 18, background: 'var(--bg-tertiary)', borderRadius: 4, marginBottom: 8 }} />
+                <div style={{ height: 14, background: 'var(--bg-tertiary)', borderRadius: 4, width: '70%' }} />
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : filtered.length > 0 ? (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 24 }}>
           {filtered.map(course => {
             const isEnrolled = enrolledCourses.some(ec => ec.id === course.id);
