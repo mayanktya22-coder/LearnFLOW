@@ -1,0 +1,11 @@
+{
+  "name": "learntricks-lms-platform",
+  "version": "1.0.0",
+  "description": "Full-Stack Learning Management System for Learntricks Edutech",
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "npm run start-all",
+    "start-all": "node start.js"
+  }
+}

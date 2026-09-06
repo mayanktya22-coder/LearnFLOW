@@ -1,0 +1,1000 @@
+{
+  "users": [
+    {
+      "id": "user-student-1",
+      "name": "Mayank Tyagi",
+      "email": "mayank@gmail.com",
+      "role": "student",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "bio": "Aspiring Full-Stack Software Engineer & UI Enthusiast",
+      "phone": "+91-98765-43210",
+      "country": "India",
+      "enrolledCourses": [
+        "course-1",
+        "course-2"
+      ],
+      "certificatesEarned": [
+        "cert-1",
+        "cert-2"
+      ],
+      "totalHoursLearned": 45,
+      "streak": 7,
+      "totalSpent": 2997,
+      "status": "active",
+      "joinDate": "2026-09-01"
+    },
+    {
+      "id": "user-student-2",
+      "name": "Sarah Johnson",
+      "email": "sarah@gmail.com",
+      "role": "student",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "bio": "Data Science explorer and Python learner",
+      "phone": "+91-98765-43211",
+      "country": "United States",
+      "enrolledCourses": [
+        "course-2"
+      ],
+      "certificatesEarned": [],
+      "totalHoursLearned": 18,
+      "streak": 3,
+      "totalSpent": 1998,
+      "status": "active",
+      "joinDate": "2026-09-02"
+    },
+    {
+      "id": "user-instructor-1",
+      "name": "Maitri Jain",
+      "email": "maitri.jain@example.com",
+      "role": "instructor",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "bio": "Senior Frontend Architect & Educator. Passionate teacher.",
+      "rating": 4.8,
+      "totalStudents": 1234,
+      "coursesCreated": [
+        "course-1",
+        "course-4"
+      ],
+      "totalRevenue": 234000,
+      "status": "verified"
+    },
+    {
+      "id": "user-instructor-2",
+      "name": "Sarah Teacher",
+      "email": "sarah.t@example.com",
+      "role": "instructor",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "bio": "Python Core Developer, AI Researcher & EduTech Advocate.",
+      "rating": 4.9,
+      "totalStudents": 850,
+      "coursesCreated": [
+        "course-2"
+      ],
+      "totalRevenue": 456000,
+      "status": "verified"
+    },
+    {
+      "id": "user-admin-1",
+      "name": "Super Admin",
+      "email": "admin@learnflow.dev",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "bio": "Platform Operations & Academic Governance Lead at LearnFlow",
+      "status": "active"
+    }
+  ],
+  "courses": [
+    {
+      "id": "course-1",
+      "title": "Web Development Fundamentals",
+      "slug": "web-development-fundamentals",
+      "category": "Web Development",
+      "level": "Beginner",
+      "price": 999,
+      "originalPrice": 1999,
+      "discount": 100,
+      "rating": 4.8,
+      "reviewCount": 376,
+      "studentCount": 890,
+      "duration": "28 hrs",
+      "instructorId": "user-instructor-1",
+      "instructorName": "Maitri Jain",
+      "instructorAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "instructorBio": "Senior Full-Stack Architect & Web Performance Consultant with 10+ years industry experience.",
+      "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+      "trailerUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "shortDescription": "Master HTML5, CSS3, Flexbox, CSS Grid, and modern JavaScript fundamentals by building 5 real-world projects.",
+      "description": "Welcome to the most complete, beginner-friendly Web Development bootcamp designed for 2026. You will learn the core foundations of modern web engineering from the ground up. We start with semantic HTML5 architecture, dive deep into responsive CSS styling with modern Grid and Flexbox layouts, and explore interactive JavaScript.",
+      "learningOutcomes": [
+        "Build responsive, modern websites using HTML5 and CSS3",
+        "Master Flexbox and CSS Grid layout algorithms",
+        "Understand JavaScript DOM manipulation and event lifecycles",
+        "Implement modern web accessibility (a11y) & SEO best practices",
+        "Deploy production-ready websites with clean Git workflows"
+      ],
+      "requirements": [
+        "A computer with internet access (Windows, Mac, or Linux)",
+        "No prior coding knowledge required - we teach from absolute scratch!",
+        "A curious mind and readiness to write code daily"
+      ],
+      "status": "published",
+      "revenue": 89000,
+      "updatedAt": "2026-09-03",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "Section 1: HTML5 Architecture & Semantics",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "les-101",
+              "title": "Introduction to Web Architecture & HTML",
+              "duration": "12:30",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+              "isPreview": true,
+              "type": "video",
+              "description": "Understand how the web works, client-server models, HTTP requests, and the role of HTML in document structure.",
+              "notes": "HTML (HyperText Markup Language) is the standard markup language for documents designed to be displayed in a web browser. Key concepts covered: DOCTYPE declaration, html, head, meta tags, and body hierarchy.",
+              "materials": [
+                {
+                  "name": "HTML5 Cheatsheet.pdf",
+                  "size": "1.4 MB",
+                  "type": "pdf"
+                },
+                {
+                  "name": "Starter_Boilerplate.zip",
+                  "size": "340 KB",
+                  "type": "zip"
+                }
+              ]
+            },
+            {
+              "id": "les-102",
+              "title": "Semantic Tags, Media & Document Structure",
+              "duration": "16:45",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+              "isPreview": false,
+              "type": "video",
+              "description": "Learn semantic elements such as header, nav, main, section, article, aside, and footer for optimal SEO and accessibility.",
+              "notes": "Semantic elements clearly describe their meaning to both the browser and the developer. Screen readers and search engine crawlers rely heavily on correct semantics.",
+              "materials": [
+                {
+                  "name": "Semantic_Tags_Reference.pdf",
+                  "size": "890 KB",
+                  "type": "pdf"
+                }
+              ]
+            },
+            {
+              "id": "les-103",
+              "title": "HTML Forms, Validations & Input Types",
+              "duration": "18:20",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+              "isPreview": false,
+              "type": "video",
+              "description": "Deep dive into form controls, inputs (text, email, password, date, radio, checkbox), labels, and HTML5 client-side validation attributes.",
+              "notes": "Always associate form controls with descriptive `<label for='id'>` tags for screen reader accessibility and touch target hit area enlargement.",
+              "materials": [
+                {
+                  "name": "Form_Validation_Examples.zip",
+                  "size": "520 KB",
+                  "type": "zip"
+                }
+              ]
+            },
+            {
+              "id": "les-104",
+              "title": "Quiz: HTML5 Basics & Semantic Markup",
+              "duration": "15:00",
+              "type": "quiz",
+              "quizId": "quiz-101",
+              "description": "Test your grasp of HTML5 semantic tags, form elements, and accessibility best practices."
+            }
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "Section 2: CSS3 Styling, Flexbox & Grid Layouts",
+          "order": 2,
+          "lessons": [
+            {
+              "id": "les-201",
+              "title": "CSS Cascade, Specificity & The Box Model",
+              "duration": "19:10",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4",
+              "isPreview": false,
+              "type": "video",
+              "description": "Understand how CSS rules resolve conflicts, the specificity hierarchy, margin collapsing, padding, borders, and content-box vs border-box.",
+              "notes": "Always use `box-sizing: border-box;` in your global CSS reset to prevent unexpected layout breakage when modifying padding and borders.",
+              "materials": [
+                {
+                  "name": "CSS_Box_Model_Guide.pdf",
+                  "size": "1.8 MB",
+                  "type": "pdf"
+                }
+              ]
+            },
+            {
+              "id": "les-202",
+              "title": "Mastering CSS Flexbox Layouts",
+              "duration": "24:15",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+              "isPreview": false,
+              "type": "video",
+              "description": "Master 1-dimensional layouts with Flexbox: flex-direction, justify-content, align-items, flex-wrap, flex-grow, and gap properties.",
+              "notes": "Flexbox is ideal for navigation bars, responsive rows, vertical centering, and component-level UI distribution.",
+              "materials": [
+                {
+                  "name": "Flexbox_Interactive_Cheatsheet.zip",
+                  "size": "1.1 MB",
+                  "type": "zip"
+                }
+              ]
+            },
+            {
+              "id": "les-203",
+              "title": "Assignment: Build a Responsive Landing Page",
+              "duration": "45:00",
+              "type": "assignment",
+              "assignmentId": "assign-101",
+              "description": "Create a fully responsive agency landing page with hero banner, feature cards, testimonial carousel, and a contact form."
+            }
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "Section 3: JavaScript Programming & DOM Manipulation",
+          "order": 3,
+          "lessons": [
+            {
+              "id": "les-301",
+              "title": "JavaScript Variables, Functions & Scope",
+              "duration": "22:00",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+              "isPreview": false,
+              "type": "video",
+              "description": "Learn modern ES6+ JavaScript syntax: let/const, arrow functions, template literals, closures, and scope chains.",
+              "notes": "Use `const` by default and `let` only when reassignment is explicitly needed. Avoid `var` in modern JavaScript codebases.",
+              "materials": [
+                {
+                  "name": "ES6_Syntax_Pocket_Guide.pdf",
+                  "size": "950 KB",
+                  "type": "pdf"
+                }
+              ]
+            },
+            {
+              "id": "les-302",
+              "title": "Interactive DOM Events & Dynamic UI",
+              "duration": "26:30",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+              "isPreview": false,
+              "type": "video",
+              "description": "Query DOM nodes, attach event listeners, handle form submit events, and render dynamic elements into the document tree.",
+              "notes": "Event delegation on parent containers dramatically improves performance when dealing with large dynamic lists.",
+              "materials": [
+                {
+                  "name": "DOM_Manipulation_Source_Code.zip",
+                  "size": "780 KB",
+                  "type": "zip"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course-2",
+      "title": "Python Masterclass: From Zero to Data Hero",
+      "slug": "python-masterclass",
+      "category": "Python",
+      "level": "Intermediate",
+      "price": 1299,
+      "originalPrice": 2499,
+      "discount": 200,
+      "rating": 4.7,
+      "reviewCount": 210,
+      "studentCount": 567,
+      "duration": "35 hrs",
+      "instructorId": "user-instructor-2",
+      "instructorName": "Sarah Teacher",
+      "instructorAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "instructorBio": "Python Core Contributor & AI Research Engineer. 8+ years teaching Python.",
+      "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&auto=format&fit=crop&q=80",
+      "trailerUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+      "shortDescription": "Master Python 3 syntax, Object-Oriented Programming (OOP), Data Structures, and building real-world automation scripts.",
+      "description": "Comprehensive Python 3 programming from foundational syntax to advanced Object Oriented Design, decorators, generators, file handling, and automated API consumption.",
+      "learningOutcomes": [
+        "Master Python 3 data types, control flow, and list comprehensions",
+        "Build modular applications using Object Oriented Programming (OOP)",
+        "Automate repetitive daily tasks using Python scripts and file I/O",
+        "Work with REST APIs and JSON data processing"
+      ],
+      "requirements": [
+        "No prior programming experience required",
+        "PC or Mac with Python 3.10+ installed"
+      ],
+      "status": "published",
+      "revenue": 67500,
+      "updatedAt": "2026-09-02",
+      "sections": [
+        {
+          "id": "py-sec-1",
+          "title": "Section 1: Python Fundamentals & Data Types",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "py-les-101",
+              "title": "Python Setup & Interactive Shell",
+              "duration": "14:10",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+              "isPreview": true,
+              "type": "video",
+              "description": "Install Python 3, configure VS Code, and write your first Python program.",
+              "notes": "Python uses whitespace indentation to define code blocks instead of curly braces.",
+              "materials": [
+                {
+                  "name": "Python_Quickstart.pdf",
+                  "size": "1.2 MB",
+                  "type": "pdf"
+                }
+              ]
+            },
+            {
+              "id": "py-les-102",
+              "title": "Lists, Dictionaries, Tuples & Sets",
+              "duration": "21:40",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+              "isPreview": false,
+              "type": "video",
+              "description": "Master Python data structures and dictionary comprehension patterns.",
+              "notes": "Lists are mutable ordered sequences; tuples are immutable; dictionaries provide O(1) key-value lookups.",
+              "materials": [
+                {
+                  "name": "Python_Data_Structures.zip",
+                  "size": "450 KB",
+                  "type": "zip"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course-3",
+      "title": "UI/UX Design Pro: Figma to Code",
+      "slug": "ui-ux-design-pro",
+      "category": "Design",
+      "level": "Beginner",
+      "price": 799,
+      "originalPrice": 1499,
+      "discount": 0,
+      "rating": 4.5,
+      "reviewCount": 114,
+      "studentCount": 234,
+      "duration": "18 hrs",
+      "instructorId": "user-instructor-1",
+      "instructorName": "Maitri Jain",
+      "instructorAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "instructorBio": "Product Designer & Frontend Architect.",
+      "thumbnail": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=800&auto=format&fit=crop&q=80",
+      "trailerUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+      "shortDescription": "Learn modern interface design, typography, Figma auto-layout, wireframing, and creating design systems.",
+      "description": "Step-by-step masterclass on user experience research, color theory, typography hierarchy, Figma design systems, and responsive handoff to developers.",
+      "learningOutcomes": [
+        "Design high-converting mobile and desktop interfaces in Figma",
+        "Master Figma components, variants, and Auto-Layout 5.0",
+        "Build comprehensive design token libraries and style guides"
+      ],
+      "requirements": [
+        "Free Figma account",
+        "No graphic design experience required"
+      ],
+      "status": "published",
+      "revenue": 45000,
+      "updatedAt": "2026-08-28",
+      "sections": [
+        {
+          "id": "ui-sec-1",
+          "title": "Section 1: Design Principles & Figma Foundations",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "ui-les-101",
+              "title": "Visual Hierarchy, Spacing & Color Theory",
+              "duration": "16:00",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+              "isPreview": true,
+              "type": "video",
+              "description": "Understanding optical alignment, 8pt grid systems, and functional color palettes.",
+              "notes": "Stick to the 60-30-10 rule for color distribution in UI interfaces.",
+              "materials": [
+                {
+                  "name": "Figma_UI_Kit.fig",
+                  "size": "4.2 MB",
+                  "type": "fig"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course-4",
+      "title": "React & Next.js Advanced Architecture",
+      "slug": "react-nextjs-advanced-architecture",
+      "category": "Web Development",
+      "level": "Advanced",
+      "price": 1499,
+      "originalPrice": 2999,
+      "discount": 300,
+      "rating": 4.9,
+      "reviewCount": 18,
+      "studentCount": 45,
+      "duration": "30 hrs",
+      "instructorId": "user-instructor-1",
+      "instructorName": "Maitri Jain",
+      "instructorAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "instructorBio": "Senior Full-Stack Architect & Web Performance Consultant.",
+      "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&auto=format&fit=crop&q=80",
+      "trailerUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "shortDescription": "Deep dive into React 19 Server Components, App Router, Zustand state management, SSR performance, and enterprise architectures.",
+      "description": "Master enterprise React patterns, React Server Components (RSC), hydration optimizations, custom hooks architectures, and deployment pipelines.",
+      "learningOutcomes": [
+        "Architect scalable React 19 applications using Server Components",
+        "Implement high-performance client state with Zustand and TanStack Query",
+        "Optimize Core Web Vitals (LCP, INP, CLS) for production web apps"
+      ],
+      "requirements": [
+        "Strong understanding of JavaScript ES6+ and basic React concepts"
+      ],
+      "status": "pending_approval",
+      "revenue": 12000,
+      "updatedAt": "2026-09-04",
+      "sections": [
+        {
+          "id": "react-sec-1",
+          "title": "Section 1: Server Components & Hydration Internals",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "react-les-101",
+              "title": "React 19 Server vs Client Component Boundary",
+              "duration": "22:15",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+              "isPreview": true,
+              "type": "video",
+              "description": "Understand component serialization, the RSC wire format, and zero-bundle-size server components.",
+              "notes": "Server Components never execute on the client, keeping large dependencies strictly on the server.",
+              "materials": [
+                {
+                  "name": "RSC_Architecture_Diagram.pdf",
+                  "size": "2.1 MB",
+                  "type": "pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz-101",
+      "courseId": "course-1",
+      "lessonId": "les-104",
+      "title": "HTML5 Basics & Semantic Structure Assessment",
+      "timeLimitMinutes": 15,
+      "passingScorePercent": 60,
+      "attemptsAllowed": 0,
+      "questions": [
+        {
+          "id": "q-1",
+          "type": "mcq",
+          "question": "Which HTML5 semantic element is best suited for self-contained content that could theoretically be distributed or syndicated independently (e.g., a blog post or news item)?",
+          "options": [
+            {
+              "id": "A",
+              "text": "<div>"
+            },
+            {
+              "id": "B",
+              "text": "<article>"
+            },
+            {
+              "id": "C",
+              "text": "<section>"
+            },
+            {
+              "id": "D",
+              "text": "<span>"
+            }
+          ],
+          "correctOption": "B",
+          "explanation": "The `<article>` element represents a complete, self-contained composition in a document, page, application, or site and that is, in principle, independently distributable or reusable."
+        },
+        {
+          "id": "q-2",
+          "type": "mcq",
+          "question": "What is the primary accessibility purpose of associating an `<input>` with a `<label>` using the `for` and `id` attributes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It automatically enables screen readers to announce the label and increases the clickable target area"
+            },
+            {
+              "id": "B",
+              "text": "It applies default CSS bold styling to the label text"
+            },
+            {
+              "id": "C",
+              "text": "It prevents the user from typing invalid email characters"
+            },
+            {
+              "id": "D",
+              "text": "It is required by browsers to submit data via POST"
+            }
+          ],
+          "correctOption": "A",
+          "explanation": "Explicit association links the visual text directly to the input control for assistive technologies and enlarges the hit area for finger taps and mouse clicks."
+        },
+        {
+          "id": "q-3",
+          "type": "true_false",
+          "question": "HTML is a Turing-complete programming language capable of executing dynamic computational algorithms.",
+          "options": [
+            {
+              "id": "A",
+              "text": "True"
+            },
+            {
+              "id": "B",
+              "text": "False"
+            }
+          ],
+          "correctOption": "B",
+          "explanation": "HTML is a declarative markup language that structures document content, not a general-purpose programming language with computational control flow."
+        },
+        {
+          "id": "q-4",
+          "type": "mcq",
+          "question": "Which attribute on the `<img>` tag is crucial for screen readers and search engines to understand image context?",
+          "options": [
+            {
+              "id": "A",
+              "text": "title"
+            },
+            {
+              "id": "B",
+              "text": "alt"
+            },
+            {
+              "id": "C",
+              "text": "data-src"
+            },
+            {
+              "id": "D",
+              "text": "caption"
+            }
+          ],
+          "correctOption": "B",
+          "explanation": "The `alt` attribute provides alternative descriptive text for users with visual impairments using screen readers and when the image fails to load."
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "id": "assign-101",
+      "courseId": "course-1",
+      "lessonId": "les-203",
+      "title": "Build a Responsive Agency Landing Page",
+      "dueDate": "2026-09-15T23:59:00.000Z",
+      "maxPoints": 100,
+      "instructions": "Create a fully functional, mobile-responsive modern agency landing page with:\n1. Semantic HTML header with navigation menu\n2. Hero section with headline, CTA button, and illustration\n3. Features Grid using CSS Flexbox or CSS Grid\n4. Responsive Contact Form with email validation\n5. Clean, structured CSS stylesheet using modern CSS variables",
+      "rubric": [
+        {
+          "id": "r-1",
+          "criteria": "HTML Semantic Structure",
+          "maxPoints": 25,
+          "description": "Appropriate use of header, nav, main, section, article, footer, and labels."
+        },
+        {
+          "id": "r-2",
+          "criteria": "CSS Styling & Design Aesthetics",
+          "maxPoints": 25,
+          "description": "Harmonious color palette, clean typography hierarchy, and spacing."
+        },
+        {
+          "id": "r-3",
+          "criteria": "Mobile Responsiveness",
+          "maxPoints": 25,
+          "description": "Fluid layout that adjusts gracefully across mobile, tablet, and desktop viewports."
+        },
+        {
+          "id": "r-4",
+          "criteria": "Functionality & Form Validation",
+          "maxPoints": 25,
+          "description": "Working form inputs, accessible controls, and semantic error states."
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-101",
+      "assignmentId": "assign-101",
+      "studentId": "user-student-1",
+      "studentName": "Mayank Tyagi",
+      "studentEmail": "mayank@gmail.com",
+      "submissionDate": "2026-09-03T14:30:00.000Z",
+      "submissionType": "code",
+      "githubUrl": "https://github.com/mayanktyagi/agency-landing-page",
+      "codeContent": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Nexus Creative Agency</title>\n  <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n  <header class=\"navbar\">\n    <div class=\"logo\">Nexus</div>\n    <nav>\n      <a href=\"#services\">Services</a>\n      <a href=\"#about\">About</a>\n      <a href=\"#contact\" class=\"btn-cta\">Get Started</a>\n    </nav>\n  </header>\n  <main>\n    <section class=\"hero\">\n      <h1>We Build Scalable Digital Experiences</h1>\n      <p>Modern frontend engineering for fast-growing startups.</p>\n    </section>\n  </main>\n</body>\n</html>",
+      "status": "graded",
+      "grade": 92,
+      "feedback": "Great work, Mayank! Your HTML is clean and semantic. The CSS is well-organized, and the responsive flexbox layout behaves smoothly. For future work, consider adding custom form focus-visible rings.",
+      "rubricScores": {
+        "r-1": 25,
+        "r-2": 20,
+        "r-3": 25,
+        "r-4": 22
+      },
+      "gradedBy": "user-instructor-1",
+      "gradedAt": "2026-09-04T10:15:00.000Z"
+    },
+    {
+      "id": "sub-102",
+      "assignmentId": "assign-101",
+      "studentId": "user-student-2",
+      "studentName": "Sarah Johnson",
+      "studentEmail": "sarah@gmail.com",
+      "submissionDate": "2026-09-05T18:20:00.000Z",
+      "submissionType": "github",
+      "githubUrl": "https://github.com/sarahj/responsive-agency-portfolio",
+      "codeContent": "/* Responsive Portfolio */\n.hero { display: flex; flex-direction: column; align-items: center; }",
+      "status": "pending",
+      "grade": null,
+      "feedback": null,
+      "rubricScores": {}
+    }
+  ],
+  "progress": [
+    {
+      "id": "prog-1",
+      "userId": "user-student-1",
+      "courseId": "course-1",
+      "lessonsCompleted": [
+        "les-101",
+        "les-102",
+        "les-103",
+        "les-104",
+        "les-201",
+        "les-202"
+      ],
+      "currentLessonId": "les-201",
+      "completionPercentage": 67,
+      "hoursWatched": 28.5,
+      "quizScores": {
+        "quiz-101": 75
+      },
+      "assignmentScores": {
+        "assign-101": 92
+      },
+      "lastAccessed": "2026-09-06T07:19:34.903Z"
+    },
+    {
+      "id": "prog-2",
+      "userId": "user-student-1",
+      "courseId": "course-2",
+      "lessonsCompleted": [
+        "py-les-101"
+      ],
+      "currentLessonId": "py-les-102",
+      "completionPercentage": 50,
+      "hoursWatched": 7,
+      "quizScores": {},
+      "assignmentScores": {},
+      "lastAccessed": "2026-09-04T11:00:00.000Z"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert-1",
+      "certificateNumber": "CERT-2026-09-12345",
+      "userId": "user-student-1",
+      "studentName": "Mayank Tyagi",
+      "courseId": "course-1",
+      "courseTitle": "Web Development Fundamentals",
+      "grade": "A (92%)",
+      "issuedDate": "2026-09-05",
+      "instructorName": "Maitri Jain",
+      "organization": "LearnFlow Academy",
+      "verificationUrl": "http://localhost:5173/verify/CERT-2026-09-12345",
+      "skills": [
+        "HTML5",
+        "CSS3",
+        "Flexbox",
+        "CSS Grid",
+        "JavaScript ES6",
+        "Responsive Design"
+      ]
+    },
+    {
+      "id": "cert-2",
+      "certificateNumber": "CERT-2026-08-98765",
+      "userId": "user-student-1",
+      "studentName": "Mayank Tyagi",
+      "courseId": "course-2",
+      "courseTitle": "Python Mastery Essentials",
+      "grade": "A+ (96%)",
+      "issuedDate": "2026-08-25",
+      "instructorName": "Sarah Teacher",
+      "organization": "LearnFlow Academy",
+      "verificationUrl": "http://localhost:5173/verify/CERT-2026-08-98765",
+      "skills": [
+        "Python 3",
+        "Data Structures",
+        "OOP",
+        "File I/O",
+        "API Integration"
+      ]
+    }
+  ],
+  "forum": [
+    {
+      "id": "forum-1",
+      "courseId": "course-1",
+      "userId": "user-student-2",
+      "userName": "Sarah Johnson",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "title": "How do I horizontally and vertically center a div cleanly using modern CSS?",
+      "content": "I keep seeing multiple approaches (margins, transforms, flex, grid). What is considered the industry gold standard in 2026?",
+      "topic": "CSS Basics",
+      "likes": 14,
+      "views": 45,
+      "isAnswered": true,
+      "createdAt": "2026-09-04T12:00:00.000Z",
+      "replies": [
+        {
+          "id": "rep-1",
+          "userId": "user-instructor-1",
+          "userName": "Maitri Jain",
+          "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "isInstructor": true,
+          "isAccepted": true,
+          "likes": 12,
+          "content": "The cleanest and most universally accepted approach today is either Flexbox: `display: flex; justify-content: center; align-items: center;` or CSS Grid: `display: grid; place-items: center;`. CSS Grid's `place-items: center` is only two lines and works across all modern browsers!",
+          "createdAt": "2026-09-04T13:20:00.000Z"
+        },
+        {
+          "id": "rep-2",
+          "userId": "user-student-1",
+          "userName": "Mayank Tyagi",
+          "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "isInstructor": false,
+          "isAccepted": false,
+          "likes": 4,
+          "content": "Can confirm `place-items: center` with `min-height: 100vh` saved me hours on my landing page project!",
+          "createdAt": "2026-09-04T14:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "forum-2",
+      "courseId": "course-1",
+      "userId": "user-student-1",
+      "userName": "Mayank Tyagi",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "title": "When should we prefer CSS Grid over Flexbox?",
+      "content": "Is it strictly 2D vs 1D layout, or are there real-world component scenarios where Grid is better even for 1D?",
+      "topic": "CSS Grid & Layouts",
+      "likes": 9,
+      "views": 32,
+      "isAnswered": false,
+      "createdAt": "2026-09-05T09:15:00.000Z",
+      "replies": []
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-1001",
+      "userId": "user-student-1",
+      "userName": "Mayank Tyagi",
+      "courseId": "course-1",
+      "courseTitle": "Web Development Fundamentals",
+      "amount": 999,
+      "method": "UPI",
+      "transactionId": "TXN-UPI-984729103",
+      "status": "success",
+      "date": "2026-09-01T10:14:00.000Z"
+    },
+    {
+      "id": "pay-1002",
+      "userId": "user-student-1",
+      "userName": "Mayank Tyagi",
+      "courseId": "course-2",
+      "courseTitle": "Python Masterclass",
+      "amount": 1299,
+      "method": "Card (Visa)",
+      "transactionId": "TXN-STRIPE-482019482",
+      "status": "success",
+      "date": "2026-09-02T16:20:00.000Z"
+    },
+    {
+      "id": "pay-1003",
+      "userId": "user-student-2",
+      "userName": "Sarah Johnson",
+      "courseId": "course-2",
+      "courseTitle": "Python Masterclass",
+      "amount": 1299,
+      "method": "Google Pay",
+      "transactionId": "TXN-GPAY-781923019",
+      "status": "success",
+      "date": "2026-09-03T11:45:00.000Z"
+    },
+    {
+      "id": "pay-1004",
+      "userId": "user-student-2",
+      "userName": "Sarah Johnson",
+      "courseId": "course-1",
+      "courseTitle": "Web Development Fundamentals",
+      "amount": 999,
+      "method": "Card (Mastercard)",
+      "transactionId": "TXN-FAIL-3948201",
+      "status": "failed",
+      "reason": "Card declined by issuing bank",
+      "date": "2026-09-05T08:30:00.000Z"
+    }
+  ],
+  "refundRequests": [
+    {
+      "id": "ref-101",
+      "paymentId": "pay-1003",
+      "studentName": "Sarah Johnson",
+      "studentEmail": "sarah@gmail.com",
+      "courseTitle": "Python Masterclass",
+      "amount": 1299,
+      "reason": "Accidentally purchased twice on different cards",
+      "status": "pending",
+      "requestedDate": "2026-09-04T17:00:00.000Z"
+    }
+  ],
+  "instructorApplications": [
+    {
+      "id": "app-101",
+      "name": "David Chen",
+      "email": "david.chen@example.com",
+      "bio": "12+ years building distributed cloud backends (Go, Python, Kubernetes). Former Lead Architect at Fintech scale-up.",
+      "expertise": "Cloud Architecture & Golang",
+      "appliedDate": "2026-09-03",
+      "status": "pending"
+    },
+    {
+      "id": "app-102",
+      "name": "Elena Rostova",
+      "email": "elena.r@example.com",
+      "bio": "Lead Motion & 3D Web Designer specializing in Three.js and WebGL animations.",
+      "expertise": "Interactive 3D Web & Three.js",
+      "appliedDate": "2026-09-04",
+      "status": "pending"
+    }
+  ],
+  "instructorPayouts": [
+    {
+      "id": "payout-1",
+      "instructorId": "user-instructor-1",
+      "instructorName": "Maitri Jain",
+      "amount": 45000,
+      "status": "paid",
+      "payoutDate": "2026-09-01",
+      "method": "Direct Bank Transfer"
+    },
+    {
+      "id": "payout-2",
+      "instructorId": "user-instructor-2",
+      "instructorName": "Sarah Teacher",
+      "amount": 34500,
+      "status": "paid",
+      "payoutDate": "2026-09-01",
+      "method": "Direct Bank Transfer"
+    }
+  ],
+  "analytics": {
+    "platform": {
+      "totalUsers": 5234,
+      "students": 4890,
+      "instructors": 235,
+      "admins": 9,
+      "newThisMonth": 234,
+      "totalCourses": 567,
+      "publishedCourses": 512,
+      "draftCourses": 45,
+      "revenueThisMonth": 234000,
+      "revenueLastMonth": 198000,
+      "growthPercent": 18.2,
+      "activeUsersToday": 1234,
+      "coursesCompletedThisMonth": 89,
+      "averageRating": 4.6,
+      "satisfactionScore": 92
+    },
+    "categoryBreakdown": [
+      {
+        "category": "Web Development",
+        "revenue": 89000,
+        "percentage": 38,
+        "students": 2100
+      },
+      {
+        "category": "Python & AI",
+        "revenue": 67500,
+        "percentage": 29,
+        "students": 1540
+      },
+      {
+        "category": "Mobile Dev",
+        "revenue": 45000,
+        "percentage": 19,
+        "students": 980
+      },
+      {
+        "category": "UI/UX Design",
+        "revenue": 32500,
+        "percentage": 14,
+        "students": 614
+      }
+    ],
+    "monthlyRevenueTrend": [
+      {
+        "month": "Apr",
+        "revenue": 145000
+      },
+      {
+        "month": "May",
+        "revenue": 162000
+      },
+      {
+        "month": "Jun",
+        "revenue": 178000
+      },
+      {
+        "month": "Jul",
+        "revenue": 195000
+      },
+      {
+        "month": "Aug",
+        "revenue": 198000
+      },
+      {
+        "month": "Sep",
+        "revenue": 234000
+      }
+    ],
+    "instructorPerformance": {
+      "monthlyRevenue": 89000,
+      "activeStudents": 567,
+      "completionRate": 75,
+      "engagementScore": 8.4,
+      "atRiskStudents": [
+        {
+          "id": "user-s-99",
+          "name": "Alex Miller",
+          "email": "alex@example.com",
+          "daysInactive": 8,
+          "stuckLesson": "CSS Flexbox"
+        },
+        {
+          "id": "user-s-98",
+          "name": "Pooja Sharma",
+          "email": "pooja@example.com",
+          "daysInactive": 12,
+          "stuckLesson": "HTML Forms"
+        }
+      ]
+    }
+  }
+}
